@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 240px; font-family: 'Segoe UI', sans-serif; padding: 15px; background: #ffffff; color: #0f0f0f; }
+    h2 { font-size: 16px; margin-top: 0; color: #ff0000; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+    .option { margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; }
+    .hint { font-size: 11px; color: #606060; margin-top: -8px; margin-bottom: 10px; line-height: 1.2; }
+    button { 
+      width: 100%; padding: 10px; cursor: pointer; background: #0f0f0f; color: #fff; 
+      border: none; border-radius: 20px; font-weight: bold; margin-top: 10px;
+    }
+    hr { border: 0; border-top: 1px solid #eee; margin: 15px 0; }
+  </style>
+</head>
+<body>
+  <h2>YT Settings</h2>
+  
+  <div class="option">
+    <span>Search-Only</span>
+    <input type="checkbox" id="blockHome">
+  </div>
+  
+  <div class="option">
+    <span>Hide All Shorts</span>
+    <input type="checkbox" id="hideShorts">
+  </div>
+
+  <div class="option">
+    <span>Hide YouTube Mixes</span>
+    <input type="checkbox" id="hideMixes">
+  </div>
+
+  <div class="option">
+    <span>Disable Infinite Scroll</span>
+    <input type="checkbox" id="disableScroll">
+  </div>
+
+  <hr>
+
+  <div class="option">
+    <span>Kill Shorts Scroll</span>
+    <input type="checkbox" id="limitShorts">
+  </div>
+  <p class="hint">Allows watching 1st short. Scrolling to a second short redirects you back to Home.</p>
+
+  <hr>
+
+  <div>If this saved you 10 minutes of distraction, consider buying me a coffee!</div>
+
+  <button id="saveBtn">Apply & Refresh</button>
+  <script src="popup.js"></script>
+</body>
+</html>
