@@ -9,6 +9,9 @@ Key Features:
 4. Disable Infinite Scroll: Stops homepage results from loading infinitely .
 5. Hide All Shorts: If you don't want any Short in your YouTube.
 
+How to Add Extension Locally
+https://youtu.be/NCRrU6ICSu8
+
 Privacy Policy
 
 This extension does not collect, store, or transmit any personal user data. All data is stored locally on the user's device.
